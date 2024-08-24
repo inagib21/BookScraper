@@ -25,14 +25,16 @@ This project is a simple web scraper built in Go, using the Colly library. It sc
    cd BookScraper
 Install the required Go packages:
 
-bash
+```bash
 Copy code
 go get -u github.com/gocolly/colly
 Run the scraper:
+```
 
-bash
+```bash
 Copy code
 go run main.go
+```
 How It Works
 Collector Setup: A new Colly collector is created with asynchronous scraping enabled.
 Category Links Extraction: The scraper identifies and visits links to different book categories.
