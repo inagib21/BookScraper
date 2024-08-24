@@ -28,11 +28,11 @@ Install the required Go packages:
 ```bash
 Copy code
 go get -u github.com/gocolly/colly
-Run the scraper:
-```
 
+```
+Run the scraper:
 ```bash
-Copy code
+
 go run main.go
 ```
 How It Works
