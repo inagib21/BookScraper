@@ -35,7 +35,7 @@ Run the scraper:
 
 go run main.go
 ```
-How It Works
+## How It Works
 Collector Setup: A new Colly collector is created with asynchronous scraping enabled.
 Category Links Extraction: The scraper identifies and visits links to different book categories.
 Pagination: The scraper follows pagination links to visit all pages within the category.
@@ -43,7 +43,7 @@ Product Data Extraction: For each book, the scraper extracts the title, price, a
 Output: The collected data is serialized into a JSON format and printed to the console.
 Example Output
 json
-Copy code
+```
 [
  {
   "link": "catalogue/category/books/travel_2/some-book_1/index.html",
@@ -53,6 +53,7 @@ Copy code
  },
  ...
 ]
+```
 Notes
 The initial category link is hardcoded for the "Travel" category on the "Books to Scrape" website.
 Modify the Visit URL in main.go to scrape different categories or other pages.
